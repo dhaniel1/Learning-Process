@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: pink;
+    font-family: Heebo;
+    /* justify-content: center; */
+}
+
+#main-container{
+    background-color: white;
+    margin: -10px auto;
+    width: 90%;
+    /* width: 1440px; */
+    height: 1502px;
+    text-align: center;
+    border: 2px solid black;
+   
+}
+
+p{
+    color: rgb(124, 124, 124);
+}
+
+h3{
+    color: #717CFF;
+}
+
+#child-1-div{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 600px;
+    height: 200px;
+    /* text-align: center; */
+    /* border: 2px solid green; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#child-1-div p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#child-1-div h1{
+    /* font-weight: 700; */
+    font-size: 35px;
+    color:rgb(55, 55, 55);
+}
+
+#child-2-div{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.babydiv{
+    /* border: 2px solid blue; */
+    margin: 20px;
+    height: 280px;
+    width: 280px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    float: left;
+    text-align: left;
+    padding: 25px ;
+    justify-content: center;
+}
+
+.babydiv:first-child {
+    margin-left: 0;
+}
+
+.babydiv:last-child {
+    margin-right: 0;
+}
+
+.babydiv p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#joe, #dan {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+#dan {
+    justify-content: center;  
+}
